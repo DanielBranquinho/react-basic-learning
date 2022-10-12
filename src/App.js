@@ -1,7 +1,7 @@
 import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
-  const expense2 = [
+  const expenses = [
     {
       id: "e1",
       title: "Papel",
@@ -26,15 +26,21 @@ function App() {
     <div>
       <h2>Let's get started!</h2>
       <ExpenseItem
-        title={expense2[0].title}
-        amount={expense2[0].amount}
-        date={expense2[0].date}
+        title={expenses[0].title}
+        amount={expenses[0].amount}
+        date={expenses[0].date}
       ></ExpenseItem>
 
       <ExpenseItem
-        title={expense2[1].title}
-        amount={expense2[2].amount}
-        date={expense2[3].date}
+        title={expenses[1].title}
+        amount={expenses[1].amount}
+        date={expenses[1].date}
+      ></ExpenseItem>
+
+      <ExpenseItem
+        title={expenses[3].title}
+        amount={expenses[3].amount}
+        date={expenses[3].date}
       ></ExpenseItem>
     </div>
   );
