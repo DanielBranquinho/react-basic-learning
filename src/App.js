@@ -6,19 +6,19 @@ function App() {
       id: "e1",
       title: "Papel",
       amount: 85.4,
-      date: new Date(2022, 5, 14).toISOString(),
+      date: new Date(2019, 4, 14).toISOString(),
     },
     {
       id: "e2",
       title: "Cartão",
       amount: 50,
-      date: new Date(2022, 5, 14).toISOString(),
+      date: new Date(2021, 6, 20).toISOString(),
     },
     {
       id: "e3",
       title: "Privada",
       amount: 350.4,
-      date: new Date(2022, 5, 15).toISOString(),
+      date: new Date(2022, 5, 25).toISOString(),
     },
   ];
 
