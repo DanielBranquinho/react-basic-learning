@@ -6,7 +6,7 @@ function App() {
       id: "e1",
       title: "Papel",
       amount: 85.4,
-      date: new Date(2022, 5, 13).toISOString(),
+      date: new Date(2022, 5, 14).toISOString(),
     },
     {
       id: "e2",
@@ -42,7 +42,9 @@ function App() {
         amount={expenses[2].amount}
         date={expenses[2].date}
       ></ExpenseItem>
-      
+
+      <ExpenseItem></ExpenseItem>
+
     </div>
     
   );
